@@ -1,5 +1,7 @@
 *.pyc
 *.out
-input.txt
+input*.txt
+test.rb
 javaScriptWeek2/
 warmup/
+.ipynb_checkpoints/
