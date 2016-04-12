@@ -4,4 +4,6 @@ input*.txt
 test.rb
 javaScriptWeek2/
 warmup/
+real-data-contest-april-2016/
+
 .ipynb_checkpoints/
