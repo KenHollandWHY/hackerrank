@@ -1,9 +1,12 @@
 *.pyc
 *.out
-input*.txt
+*input*.txt
+*output*.txt
 test.rb
 javaScriptWeek2/
 warmup/
 real-data-contest-april-2016/
+infinitum15/
+womens-codesprint/
 
 .ipynb_checkpoints/
