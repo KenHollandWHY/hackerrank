@@ -1,6 +1,6 @@
 R = 100
-N = input()
-ar = [int(i) for i in raw_input().strip().split()]
+N = int(input())
+ar = [int(i) for i in input().strip().split()]
 
 
 # count how many times appears for element

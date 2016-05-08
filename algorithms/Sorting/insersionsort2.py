@@ -1,9 +1,8 @@
 #!/bin/python
 def insertionSort(l):
-
     for i in range(1, len(l)):
-        tmp = ar[i]
-        if(ar[i-1] > tmp):
+        tmp = l[i]
+        if(l[i-1] > tmp):
             j = i
 
             while (j > 0 and l[j-1] > tmp):
@@ -11,8 +10,8 @@ def insertionSort(l):
                 j -= 1
 
             l[j] = tmp
-        print ' '.join(map(str, l))
+        print(' '.join(map(str, l)))
 
 m = input()
-ar = [int(i) for i in raw_input().strip().split()]
+ar = [int(i) for i in input().strip().split()]
 insertionSort(ar)
